@@ -1,0 +1,11 @@
+--- a/configure	2014-03-24 08:04:16.000000000 +0200
++++ b/configure	2014-09-27 23:49:15.000000000 +0300
+@@ -13971,7 +13971,7 @@
+ 	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for scandir" >&5
+ $as_echo_n "checking for scandir... " >&6; }
+ 	fc_saved_CFLAGS="$CFLAGS"
+-	CFLAGS="$CFLAGS $WARN_CFLAGS -Werror"
++	CFLAGS="$CFLAGS $WARN_CFLAGS -Wall -Wextra"
+ 	cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
